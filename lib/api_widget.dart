@@ -73,21 +73,22 @@ class _APIWidgetState extends BasePageState<APIWidget> {
 
   @override
   void didPushNext() {
-    print("SecondScreen : didPushNext");
+    print("APIScreen : didPushNext");
+    super.didPushNext();
   }
 
   @override
   void didPop() {
-    print("SecondScreen : didPop");
+    print("APIScreen : didPop");
   }
 
   @override
   void didPush() {
-    print("SecondScreen : didPush");
+    print("APIScreen : didPush");
   }
 
   @override
   void didPopNext() {
-    print("SecondScreen : didPopNext");
+    print("APIScreen : didPopNext");
   }
 }

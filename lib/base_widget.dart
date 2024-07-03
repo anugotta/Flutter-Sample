@@ -50,6 +50,6 @@ class BasePageState<T extends BasePage> extends State<T>
 
   @override
   Widget build(BuildContext context) {
-    return Container(); 
+    return Container();
   }
 }

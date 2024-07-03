@@ -1,9 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/api_widget.dart';
 import 'package:flutter_application_1/base_widget.dart';
-import 'package:flutter_application_1/main.dart';
-
 
 class SecondScreen extends BasePage {
   const SecondScreen({Key? key})
@@ -65,5 +62,3 @@ class _SecondScreenState extends BasePageState<SecondScreen> {
     print("SecondScreen : didPopNext");
   }
 }
-
-

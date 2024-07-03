@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/base_widget.dart';
 import 'package:flutter_application_1/main.dart';
@@ -64,5 +63,3 @@ class _HomeScreenState extends BasePageState<HomeScreen> {
     print("Home : didPopNext");
   }
 }
-
-
